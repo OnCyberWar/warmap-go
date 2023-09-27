@@ -4,7 +4,7 @@ Warmap takes a Kismet gpsxml, Aerodump gps file or Kismet Database file and a se
 
 ## Usage: ##
 ```
-go run warmap -f [Kismet gpsxml or Aerodump gps file or Kismet Database file] -a [boolean switch if youre using Aerodump output] -a [boolean switch if youre using Kismet Database] -b [File of Comma-seperated List of BSSIDs] -o [HTML output file] -api [Google Maps API Key]
+go run warmap -f [Kismet gpsxml or Aerodump gps file or Kismet Database file] -a [boolean switch if youre using Aerodump output] -k [boolean switch if youre using Kismet Database] -b [File of Comma-seperated List of BSSIDs] -o [HTML output file] -api [Google Maps API Key]
 ```
 Go [here](https://developers.google.com/maps/documentation/javascript/get-api-key) to get a Google Maps API key. warmap-go leverages Google's Maps JavaScript API.
 
